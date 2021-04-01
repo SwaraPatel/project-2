@@ -1,0 +1,70 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+.mainhead img{
+	position: absolute;
+}
+.subhead{
+	position: relative;
+	background:white;
+	border-radius: 50% 50% 50%  50%;
+	width: 300px;
+	height: 150px;
+	left: 700px;
+	top: 200px;
+	box-shadow: -10px 10px 10px #f000; 
+}
+
+.audio{
+	left: 1px;
+	top: 50px;
+	position: relative;
+	position: absolute;
+	
+}
+
+.box h1{
+	font-color: white;
+}
+
+.box{
+		position: absolute;
+	left: 10px;
+	top: 0px;
+	width:100px;
+	height: 80px;
+	margin: auto;
+	background-color: black;
+    transition-property: width;
+    transition: 1s;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+    border-radius: 50% 50% 50% 50%;
+
+}
+.box:hover{
+    width: 150px;
+	
+}
+.box2{
+	position: relative;
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	width:100px;
+	height: 80px;
+	margin: auto;
+	background-color: white;
+    transition-property: width;
+    transition: 1s;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+    border-radius: 50% 50% 50% 50%;
+
+}
+.box2:hover{
+    width: 150px;
+	
+}

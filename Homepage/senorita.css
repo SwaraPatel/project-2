@@ -1,0 +1,64 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+.box{
+	position: relative;
+	position: absolute;
+	left:0px;
+	top: 0px;
+	width:100px;
+	height: 80px;
+	margin: auto;
+	background-color: red;
+    transition-property: width;
+    transition: 1s;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+    border-radius: 50% 50% 50% 50%;
+
+}
+.box:hover{
+    width: 150px;
+	
+}
+
+
+.mainhead video{
+	background: black;
+	padding: 0px;
+	margin:0px;
+	position: absolute;
+    width: 1600px;
+	height:985px ;
+} 
+
+.box h1{
+	font-color: white;
+}
+
+.box2{
+	position: relative;
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	width:100px;
+	height: 80px;
+	margin: auto;
+	background-color: red;
+    transition-property: width;
+    transition: 1s;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+    border-radius: 50% 50% 50% 50%;
+
+}
+.box2:hover{
+    width: 150px;
+	
+}
+
+
+
+

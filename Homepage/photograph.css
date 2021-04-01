@@ -1,0 +1,49 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+
+
+.container video{
+	position: absolute;
+    position: relative;
+    left: 10px;
+    top: 0px;
+    width: 1580px;
+    height: 930px;
+}
+
+.btn{
+	position: relative;
+	width:200px;
+	height: 50px;
+	top:0px;
+	background-color: white;
+	border-radius: 30px;
+	border: 2px solid #A2D9CE;
+	transition: background-color 2s;
+}
+
+.btn:hover{
+	background-color: #A2D9CE;
+}
+
+.btn2{
+	position: relative;
+	width:200px;
+	height: 50px;
+	left: 75%;
+	top:0px;
+	background-color: white;
+	border-radius: 30px;
+	border: 2px solid #A2D9CE;
+	transition: background-color 2s;
+}
+
+.btn2:hover{
+	background-color: #A2D9CE;
+}
+
